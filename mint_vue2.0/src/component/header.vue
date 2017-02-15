@@ -1,5 +1,5 @@
 <template>
-  <mt-header title="">
+  <mt-header title="TOp">
     <div slot="left" >
       <mt-button icon="back" @click.native="back"></mt-button>
     </div>

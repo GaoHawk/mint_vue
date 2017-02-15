@@ -4,12 +4,18 @@
      Bar
      </div>
 </template>
+<style>
+   .template{
+      background: black;
+   }
+</style>
 <script>
 import Header from './header.vue'
 export default {
    data(){
       return {
-         name:'Bar'
+         name:'Bar',
+
       }
    },
    components:{
