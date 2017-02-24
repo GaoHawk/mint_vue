@@ -29,6 +29,7 @@ export default {
           console.log(item);
           this.showHome = !this.showHome;
           sessionStorage.showHome = this.showHome;
+          console.log(this);
           this.$router.push({ path: item.path });
       }
   }
@@ -42,6 +43,7 @@ export default {
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #2c3e50;
+
   /* margin-top: 60px; */
 }
 
